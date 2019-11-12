@@ -142,6 +142,11 @@ switch (mark) {
     }
         break;
 
+    case "x":
+    case "X":
+    case "*":
+
+
     case "-" : {
         alert(userFirstValue + "-" + userSecondValue + "=" + sab( userFirstValue , userSecondValue))
     }
@@ -161,27 +166,6 @@ switch (mark) {
 
 
 }
-
-
-/*
-
-if( mark === "+"    ){
-
-    alert(userFirstNumber + "+" + userSecondNumber + "=" + sum( userFirstNumber , userSecondNumber))
-
-}
-
-else  if(mark === "-"){
-    alert(userFirstNumber + "-" + userSecondNumber + "=" + sab( userFirstNumber , userSecondNumber))
-
-}
-
-else if ( mark === "*"){
-    alert(userFirstNumber + "*" + userSecondNumber + "=" + sum( userFirstNumber , userSecondNumber))
-
-}
-
-*/
 
 
 function sum  ( firstNumber , secondNumber) {
